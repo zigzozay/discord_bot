@@ -1,8 +1,13 @@
 from logging import fatal
-import os
 import discord
 from discord.ext import commands
 from discord import app_commands
+
+import os
+
+port = int(os.getenv("PORT", 5000))
+app.run(host='0.0.0.0', port=port)
+
 
 from dotenv import load_dotenv
 import os
