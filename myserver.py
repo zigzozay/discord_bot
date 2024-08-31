@@ -7,7 +7,7 @@ def home():
     return "Server is running !"
 
 def start():
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
 
 # ฟังก์ชันนี้ถูกเรียกในไฟล์ main.py
 def server_on():
