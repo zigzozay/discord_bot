@@ -9,6 +9,5 @@ def home():
 def start():
     app.run(host='0.0.0.0', port=5000, debug=True)
 
-# ฟังก์ชันนี้ถูกเรียกในไฟล์ main.py
 def server_on():
     start()
