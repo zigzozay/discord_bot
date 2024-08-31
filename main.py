@@ -6,6 +6,10 @@ from discord import app_commands
 
 from myserver import server_on
 
+if __name__ == "__main__":
+    server_on()
+
+
 
 # สร้าง instance ของ bot
 intents = discord.Intents.default()
